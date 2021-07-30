@@ -248,7 +248,7 @@ footer{
 
     header,
     footer{
-        padding: 20px 40px;
+        padding: 20px 18px;
     }
 
     .sec .imgBx{
@@ -282,11 +282,46 @@ footer{
     }
 
     .toggle.active{
-        left: -120px;
+        left: -100px;
     }
 
     .navLink ul li a{
         font-size: 1.5em;
-        margin-left: 50px;
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 400px){
+    .sec{
+        padding: 20px;
+    }
+    .sec .imgBx{
+        width: 200px;
+        min-width: 200px;
+        height: 200px;
+        margin-top: 80px;
+    }
+
+    .sec .content h2 span{
+        font-size: 40px;
+    }
+    .sec .content h2{
+        font-size: 20px;
+    }
+    footer{
+        display: flex;
+        align-items: center;
+    }
+
+    .toggle{
+        padding: 20px;
+    }
+    .sec .content p{
+        font-size: 18px;
+        color: #070707;
+    }
+
+    .content a.bth{
+        border-radius: 40px;
     }
 }
